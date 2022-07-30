@@ -1,0 +1,273 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+.main-header
+{
+    width: 100%;
+    background: #43061E;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    z-index: 1;
+}
+.main-header > div
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-header__img
+{
+    height: 3rem;
+}
+
+.main-nav
+{
+    display: inline-block;
+    text-align: right;
+    width: 90%;
+}
+
+.main-nav__items
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item
+{
+    display: inline-block;
+    margin: 0 1rem;
+}
+.main-nav__item a:hover,
+.main-nav__item a:active
+{
+    color: #F3AA20;
+    border-bottom: 1px solid #F3AA20;
+}
+
+a
+{
+    text-decoration: none;
+    color: #f8f0f0;
+    padding: 3px;
+}
+h2
+{
+    font-size: 2.5rem;
+    color: #2AA10F;
+    margin: 20px auto;
+}
+.intro-elements {
+    position: relative;
+}
+.intro__img{
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 110vh;
+    filter: brightness(85%);
+}
+.intro-elements__description-1
+{
+    color: #B62355;
+    position: absolute;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3.7rem;
+    margin: 1rem;
+    top: 21vh;
+    left: 26vw;
+    width: 50%;
+}
+.intro-elements__description-2
+{
+    position: absolute;
+    color: #700F4E;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 2.5rem;
+ 
+    margin: 1rem;
+    top: 34vh;
+    left: 37vw;
+    width: 30%;
+}
+#about{
+    background: #F0EAD8 ;
+    filter: brightness(80%);
+    height: 75vh;
+    margin-top: -5px;
+}
+.about-elements
+{
+    width: 50%;
+    margin: auto;
+}
+
+.about__img
+{
+    width: 200px;
+    margin-top: 10vh;
+    padding: 15px;
+    border-radius: 50%;
+    filter: brightness(90%);
+}
+
+.about__description
+{
+    padding: 16px;
+    padding-bottom: 40px;
+    /* margin: auto 25%; */
+}
+.line
+{
+    background-image: url('line-bg.png');
+    display: inline-block;
+    width: 30%;
+    margin: auto 25%;
+    height: 6px;
+}
+#skill{
+    background: #E7D8C9;
+
+}
+.skills
+{
+    width: 50%;
+    margin: auto 25%;
+    padding: 1vh;
+}
+.skills-elements{
+    margin-top: 5rem ;
+}
+
+.skills-row
+{
+    text-align: left;
+    line-height: 2;
+}
+
+h3
+{
+    font-size: 1.5rem;
+    color: #26547C;
+}
+
+.skills-row__1,
+.skills-row__2,
+.skills-row__3
+{
+    overflow: hidden;
+}
+
+.skills-img__1
+{
+    display: inline-block;
+    float: left;
+    width: 250px;
+    border-radius: 5%;
+    padding: 30px 30px 30px 0px;
+}
+
+.skills-img__2
+{
+    display: inline-block;
+    float: right;
+    width: 250px;
+    border-radius: 5%;
+    padding: 30px 0px 30px 30px;
+}
+.skills-img3
+{
+    display: inline-block;
+    float: left;
+    width: 250px;
+    border-radius: 50%;
+    padding: 30px 30px 30px 0px;
+}
+.facebook{
+    color: #F3AA20;
+    }    
+.facebook-hover a:hover,
+.facebook-hover a:active{
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+#contact{
+    background: #F1C6B8;
+    filter: brightness(90%);
+}
+.contact-elements
+{
+    width: 50%;
+    margin: auto;
+    padding: 3vw 0;
+    height: 50vh;
+}
+.button{
+    position: absolute;
+    top: 30vh;
+    left: 24vw;
+    width: 50%;
+}
+.button-link
+{
+    background: #43061E;
+    border: 0px solid;
+    margin: 5rem 5rem;
+    padding: 0.6rem 4.5rem;
+    font-size: 1.3rem;
+    border-radius: 3px;
+    
+}
+.button a:hover,
+.button a:hover{
+    color:#43061E ;
+    background:white;
+    margin: 5rem 5rem;
+    padding: 0.6rem 4.1rem;
+    font-weight: bold;
+    border: 3px solid #43061E;
+}
+
+footer
+{
+    width: 100%;
+    height: 5rem;
+    background: #43061E;
+    padding: 0.5rem 1rem;
+}
+
+.footer-nav
+{
+    display: inline-block;
+    /* width: 100%; */
+}
+
+.footer-nav__items
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-nav__item
+{
+    display: inline-block;
+    margin: 0 1rem;
+    padding: 1.5rem 0;
+}
+
+.footer-nav__item a:hover,
+.footer-nav__item a:active
+{
+    color: #F3AA20;
+    border-bottom: 1px solid #F3AA20;
+}
